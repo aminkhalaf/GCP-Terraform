@@ -9,10 +9,14 @@ I dockerized this python app using docker file & docker compose.
 ## Installation
 Using pip package manager to install dependencies into your Docker file.
 
+```bash
 RUN pip install -r requirements.txt
+```
 
 Apply infrastructure on GCP using Terraform.
 
+```bash
 terraform init 
 terraform plan
 terraform apply
+```
